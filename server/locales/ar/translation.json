@@ -1,0 +1,159 @@
+{
+  "admin": {
+    "no_unapproved": "لا يوجد مستخدمون غير معتمدين",
+    "unapproved_found": "تم استرجاع المستخدمين غير المعتمدين بنجاح",
+    "user_not_found": "المستخدم غير موجود",
+    "upproved_sucessfully": "تمت الموافقة على المستخدم بنجاح",
+    "disapproved_successfully": "تم رفض المستخدم بنجاح"
+  },
+  
+  "appointment": {
+    "no_fee": "لم يتم تحديد رسوم الموعد",
+    "no_patient": "المريض غير موجود لدينا",
+    "no_doctor": "الطبيبب غير موجود لدينا",
+    "doctors_only": "يمكنك حجز مواعيد مع الأطباء فقط",
+    "no_appointment_in_past": "لا يمكن حجز موعد في الماضي",
+    "doctor_not_free": "الطبيب غير متاح في هذا الوقت",
+    "appointment_with_doctor": "موعد مع الدكتور ",
+    "appointment_time": "موعد لمدة 30 دقيقة في ",
+    "session_id_required": "مطلوب رقم الجلسة",
+    "payment_not_completed": "لم يتم إتمام الدفع",
+    "unothorzed": "غير مصرح",
+    "payment_not_found": "سجل الدفع غير موجود",
+    "payment_processed": "تمت معالجة الدفع مسبقًا",
+    "sucess_appointment": "تم استرجاع مواعيد المريض بنجاح",
+    "doctor_app_fetched": "تم استرجاع مواعيد الطبيب بنجاح",
+    "invalid_id": "رقم الموعد غير صالح",
+    "not_found": "الموعد غير موجود",
+    "unaothorized": "غير مصرح لك بتحديث الحالة",
+    "cant_modify": "لا يمكن تعديل موعد تم إلغاؤه أو إتمامه",
+    "status_updated": "تم تحديث حالة الموعد بنجاح",
+    "unaothorized_cancel": "غير مصرح لك بالإلغاء",
+    "cant_cancel_past": "لا يمكن إلغاء المواعيد السابقة",
+    "already_cancelled": "تم إلغاء الموعد مسبقًا",
+    "patient_only": "يمكن للمرضى فقط إلغاء المواعيد المعلقة",
+    "cancelled_successfully": "تم إلغاء الموعد بنجاح",
+    "no_doctors": "لا يوجد أطباء الآن",
+    "doctors_found": "تم العثور على الأطباء بنجاح"
+  },
+
+  "auth": {
+    "email_send_failed": "فشل في إرسال البريد الإلكتروني",
+    "email_exists": "البريد الإلكتروني مستخدم بالفعل.",
+    "email_sent": "تم إرسال بريد التحقق، يرجى التحقق من بريدك الإلكتروني",
+    "username_exists": "اسم المستخدم مستخدم بالفعل.",
+    "no_user_with_this_email": "لا يوجد مستخدم بهذا البريد الإلكتروني",
+    "incorrect_confirmation_code": "رمز التأكيد غير صحيح، يرجى المحاولة مرة أخرى",
+    "code_not_valid": "هذا الرمز لم يعد صالحًا، يرجى المحاولة برمز آخر",
+    "verified_successfully": "تم التحقق من بريدك الإلكتروني بنجاح",
+    "user_not_found": "المستخدم غير موجود",
+    "user_not_verified": "المستخدم لم يتم التحقق منه",
+    "invalid_email_password": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "logged_in_successfully": "تم تسجيل الدخول بنجاح",
+    "email_not_exists": "يوجد خطأ في هذا البريد الإلكتروني، ربما غير موجود",
+    "confirmation_email_not_exist": "يوجد خطأ في هذا البريد الإلكتروني، ربما غير موجود",
+    "reset_password_sent": "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني بنجاح",
+    "invalid_token": "رمز غير صالح أو منتهي الصلاحية",
+    "code_verified": "تم التحقق من الرمز، يمكنك الآن إعادة تعيين كلمة المرور",
+    "password_reset_successfully": "تمت إعادة تعيين كلمة المرور بنجاح",
+    "user_logged_out": "تم تسجيل خروج المستخدم!"
+  },
+
+  "book": {
+
+
+    "payment_intent_created": "تم إنشاء نية الدفع بنجاح",
+    "checkout_session_created": "تم إنشاء جلسة الدفع بنجاح",
+    "session_or_intent_required": "معرف الجلسة أو معرف نية الدفع مطلوب",
+    "payment_not_completed": "لم يتم إكمال الدفع",
+    "unauthorized": "الوصول غير مصرح به",
+    "payment_verified": "تم التحقق من الدفع بنجاح",
+
+    "pdf_required": "ملف PDF مطلوب",
+    "image_required": "صورة مطلوبة",
+    "book_created": "تم إنشاء الكتاب بنجاح",
+    "no_book": "الكتاب غير موجود",
+    "sesstion_id_required": "رقم الجلسة مطلوب",
+    "payment_not_completetd": "لم يتم إكمال الدفع",
+    "unaothorized": "غير مصرح",
+    "no_access": "ليس لديك صلاحية للوصول إلى هذا الكتاب",
+    "book_pdf_not_found": "الكتاب أو ملف PDF غير موجود",
+    "pdf_not_found": "ملف PDF غير موجود",
+    "book_not_found": "ملف الكتاب غير موجود",
+    "no_file": "لم يتم رفع أي ملفات",
+    "images_uploaded": "تم رفع الصور بنجاح",
+    "delete_own_listing_only": "يمكنك حذف منشوراتك فقط!",
+    "upproved_first_to_delete": "تحتاج للموافقة أولاً لحذف كتب لم تقم بإنشائها!",
+    "book_deleted": "تم حذف الكتاب بنجاح",
+    "update_own_listing": "يمكنك تعديل منشوراتك فقط!",
+    "upproved_first_to_update": "تحتاج للموافقة أولاً لتعديل كتب لم تقم بإنشائها!",
+    "book_updated": "تم تعديل الكتاب بنجاح",
+    "book_found": "تم العثور على الكتاب بنجاح",
+    "book_recieved": "تم استلام الكتب بنجاح"
+  },
+
+  "chatbot": {
+    "required_message": "الرسالة مطلوبة",
+    "required_user_id": "معرّف المستخدم مطلوب",
+    "user_not_found": "المستخدم غير موجود",
+    "history_not_exists": "لا يوجد سجل محادثة",
+    "streaming_error": "حدث خطأ أثناء البث",
+    "processing_failed": "فشل في معالجة المحادثة",
+    "history_founded": "تم العثور على سجل المحادثة بنجاح",
+    "chat_messages_failed": "فشل في جلب رسائل المحادثة"
+  },
+
+  "comment": {
+    "not_allowd_to_create": "غير مسموح لك بإنشاء هذا التعليق",
+    "created": "تم إنشاء التعليق بنجاح",
+    "all_comments": "كل التعليقات على هذا المنشور",
+    "not_found": "التعليق غير موجود",
+    "liked_successfully": "تم الإعجاب بالتعليق بنجاح",
+    "not_allowd_to_edit": "غير مسموح لك بتعديل هذا التعليق",
+    "upproved_first_to_edit": "يجب الموافقة عليك أولاً لتعديل تعليقات لم تقم بإنشائها!",
+    "upproved_first_to_delete": "يجب الموافقة عليك أولاً لحذف تعليقات لم تقم بإنشائها!",
+    "edited": "تم تعديل التعليق بنجاح",
+    "not_allowd_to_delete": "غير مسموح لك بحذف هذا التعليق",
+    "deleted": "تم حذف التعليق بنجاح",
+    "not_allowd_to_get_all": "غير مسموح لك بعرض جميع التعليقات",
+    "upproved_first_to_get_all": "يجب الموافقة عليك أولاً لعرض جميع التعليقات",
+    "all": "جميع التعليقات"
+  },
+
+  "stripe": {
+    "book_not_found": "الكتاب غير موجود",
+    "checkout_created": "تم إنشاء جلسة الدفع بنجاح",
+    "payment_not_completed": "لم يتم إكمال عملية الدفع"
+  },
+
+  "user": {
+    "only_update_own_account": "يمكنك تعديل حسابك فقط",
+    "not_found": "المستخدم غير موجود",
+    "updated": "تم تحديث المستخدم بنجاح",
+    "only_delete_own_account": "يمكنك حذف حسابك فقط",
+    "upproved_first_to_delete": "يجب الموافقة عليك أولاً لحذف المستخدمين",
+    "message": "تم حذف المستخدم",
+    "founded": "تم العثور على المستخدم بنجاح",
+    "not_allowd_to_get_all": "غير مسموح لك بعرض جميع المستخدمين",
+    "upproved_first_to_get_all": "يجب الموافقة عليك أولاً لعرض جميع المستخدمين",
+    "all_users": "جميع المستخدمين"
+  },
+
+  "multer": {
+    "only_image_pdf": "مسموح فقط برفع الصور وملفات PDF!",
+    "unsupported": "صيغة الملف غير مدعومة. يُسمح فقط بـ JPEG, JPG, PNG, GIF, وPDF."
+  },
+
+  "middleware": {
+    "user_not_found": "المستخدم غير موجود",
+    "not_admin": "أنت لست مشرفًا لتنفيذ هذا الإجراء",
+    "not_approved_admin": "لا يُسمح لك بتنفيذ هذا الإجراء حتى يتم تأكيد هويتك كمشرف",
+    "not_doctor": "أنت لست طبيبًا لتنفيذ هذا الإجراء",
+    "not_approved_doctor": "لا يُسمح لك بتنفيذ هذا الإجراء كطبيب حتى يتم تأكيد هويتك",
+    "error": "خطأ في الخادم"
+  },
+
+  "server": {
+    "not_available": "المورد غير متاح"
+  }
+}

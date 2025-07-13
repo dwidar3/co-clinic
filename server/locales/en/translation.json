@@ -1,0 +1,223 @@
+{
+    "admin": {
+        "no_unapproved": "No unapproved users found",
+        "unapproved_found": "Unapproved users retrieved successfully",
+        "user_not_found": "User not found",
+        "upproved_sucessfully": "User approved successfully",
+        "disapproved_successfully": "User disapproved successfully"
+    },
+
+    "appointment": {
+        "no_fee": "Appointment fee not configured",
+        "no_patient": "The patient dosen't exist",
+        "no_doctor": "The doctor dosen't exist",
+        "doctors_only": "You can only book appointments with doctors",
+        
+        "no_appointment_in_past": "Can't book appointment in the past",
+        "doctor_not_free": "This doctor isn't free at this time",
+        
+        "appointment_with_doctor": "Appointment with Dr. ",
+        "appointment_time": "30-minute appointment on ",
+        
+        
+        "session_id_required": "Session ID is required",
+        
+        "payment_not_completed": "Payment not completed",
+        "unothorzed": "Unauthorized",
+        "payment_not_found": "Payment record not found",
+        
+        "payment_processed": "Payment already processed",
+        "sucess_appointment": "Patient appointments retrieved successfully",
+        "doctor_app_fetched": "Doctor appointments fetched successfully",
+        
+        "invalid_id": "Invalid appointment ID",
+        "not_found": "Appointment not found",
+        "unaothorized": "Unauthorized to update status",
+        
+
+
+
+
+        "cant_modify": "Cannot modify a cancelled or completed appointment",
+        
+        
+        "status_updated": "Appointment status updated successfully",
+        "unaothorized_cancel": "Unauthorized to cancel",
+        
+
+        
+        "cant_cancel_past": "Cannot cancel past appointments",
+        
+
+        "already_cancelled": "Appointment is already cancelled",
+        "patient_only": "Patients can only cancel pending appointments",
+        "cancelled_successfully": "Appointment cancelled successfully",
+        
+        "no_doctors": "there is no doctors right now",
+        "doctors_found": "doctors founded successfully"
+    },
+
+    "auth": {
+        "email_send_failed": "Email send failed",
+        "email_exists": "Email already exists.",
+        "email_sent": "Verification email sent. Please verify your email",
+        "username_exists": "Username already exists.",
+
+        "no_user_with_this_email": "There is no user with this email address",
+
+        "incorrect_confirmation_code": "Incorrect confirmation code, please try again",
+        "code_not_valid": "This code not valid any more please try another one",
+        "verified_successfully": "Your email has been verified successfully ",
+
+
+        
+        "user_not_found": "User not found",
+        "user_not_verified": "User not verified",
+        "invalid_email_password": "Invalid email or password",
+        "logged_in_successfully": "Logged in successfully",
+
+        "email_not_exists": "Something wrong with this email maybe it does not exist",
+
+        "confirmation_email_not_exist": "Something wrong with this email maybe it does not exist",
+        "reset_password_sent": "reset password message sent to your email successfully",
+
+        "invalid_token": "Invalid or expired token",
+        "code_verified": "Code verified, you can reset password",
+        "password_reset_successfully": "Password has been reset successfully",
+
+        "user_logged_out": "User has been logged out!"
+
+    },
+
+    "book": {
+
+
+    "payment_intent_created": "Payment intent created successfully",
+    "checkout_session_created": "Checkout session created successfully",
+    "session_or_intent_required": "Session ID or Payment Intent ID is required",
+    "payment_not_completed": "Payment has not been completed",
+    "unauthorized": "Unauthorized access",
+    "payment_verified": "Payment verified successfully",
+
+        "pdf_required": "PDF file is required",
+        "image_required": "Image file is required",
+        "book_created": "Book created successfully",
+        
+        "no_book": "Book not found",
+        "sesstion_id_required": "Session ID is required",
+        "payment_not_completetd": "Payment not completed",
+        
+        "unaothorized": "Unauthorized",
+        "no_access": "You do not have access to this book",
+        "book_pdf_not_found": "Book or PDF not found",
+        
+
+
+        "pdf_not_found": "PDF file not found",
+        "book_not_found": "Book file not found",
+
+
+
+        "no_file": "No files uploaded",
+        "images_uploaded": "Images uploaded successfully",
+        "delete_own_listing_only": "You can only delete your own listings Only!",
+        
+        "upproved_first_to_delete": "You need to be approved first to delete books you haven't created!",
+        "book_deleted": "book deleted successfully",
+        
+        
+        "update_own_listing": "You can only update your own listings!",
+
+        "upproved_first_to_update": "You need to be approved first to update books you haven't created!",
+        "book_updated": "book updated successfully",
+        "book_found": "book founded successfully",
+
+        "book_recieved": "books recieved successfully"
+
+        },
+
+    "chatbot": {
+        "required_message": "message is required",
+        "required_user_id": "user id is required",
+        "user_not_found": "User not found",
+        "history_not_exists": "Chat history dosn't exists",
+
+
+        "streaming_error": "Error during streaming ",
+        "processing_failed": "Chat processing failed",
+
+
+
+        "history_founded": "Chat history founded successfully",
+        "chat_messages_failed": "Failed to fetch chat messages"
+
+    },
+
+    "comment": {
+        "not_allowd_to_create": "You are not allowed to create this comment",
+        "created": "comment created successfully",
+        
+        "all_comments": "all comments on this post",
+        "not_found": "Comment not found",
+        "liked_successfully": "the comment has been liked successfully",
+        
+        "not_allowd_to_edit": "You are not allowed to edit this comment",
+        "upproved_first_to_edit": "You need to be approved first to edit comments you haven't created!",
+        "upproved_first_to_delete": "You need to be approved first to delete comments you haven't created!",
+        
+        "edited": "the comment edit successfully",
+        "not_allowd_to_delete": "You are not allowed to delete this comment",
+        "deleted": "the comment deleted successfully",
+        
+        "not_allowd_to_get_all": "You are not allowed to get all comments",
+        "upproved_first_to_get_all": "You need to be approved first to get all comments",
+        "all": "All comments"
+
+    },
+
+    "stripe": {
+        "book_not_found": "Book not found",
+        "checkout_created": "Checkout session created successfully",
+        "payment_not_completed": "Payment not completed"
+    },
+
+    "user": {
+        "only_update_own_account": "You can only update your own account",
+        "not_found": "User not found",
+        
+        "updated": "user updated successfully",
+        "only_delete_own_account": "You can only delete your own account",
+        "upproved_first_to_delete": "You need to be approved first to delete users",
+        
+        "message": "User has been deleted",
+        "founded": "User founded successfully",
+        "not_allowd_to_get_all": "You are not allowed to see all users",
+
+        "upproved_first_to_get_all": "You need to be approved first to get all users",
+        "all_users": "All users"
+    },
+
+    "multer": {
+        "only_image_pdf": "Only images and PDFs are allowed!",
+        "unsupported": "Unsupported file format. Only JPEG, JPG, PNG, GIF, and PDF are allowed."
+
+    },
+
+    "middleware": {
+        "user_not_found": "User not found",
+        "not_admin": "You are not admin to perform this action",
+        "not_approved_admin": "You are not allow to perform this action till an andmin prove your identity",
+        "not_doctor": "You are not a doctor to perform this action",
+        "not_approved_doctor": "You are not allow to perform this action as a doctor till an andmin prove your identity",
+        "error": "Server Error"
+    },
+
+    "server": {
+        "not_available": "resource not availble"
+    }
+
+
+
+
+    
+}
